@@ -1,0 +1,16 @@
+.my-img{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin-left: 5%;
+}
+
+.aboutMe-article{
+    position: relative;
+    right:0;
+    width: 60%;
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}

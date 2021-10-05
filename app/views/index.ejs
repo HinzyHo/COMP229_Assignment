@@ -1,0 +1,18 @@
+<%- include('partials/header.ejs') %>
+<%- include('partials/nav.ejs') %>
+
+<main>
+    <% if (title == 'Home') { %>
+        <%- include('home.ejs'); %>
+    <% } else if (title == 'About Me'){ %>
+        <%- include('aboutMe.ejs') %>
+    <% } else if (title == 'Project'){ %>
+        <%- include('project.ejs') %>
+    <% } else if (title == 'Contact Me'){ %>
+        <%- include('contactMe.ejs') %>
+    <% } else if (title == 'Services'){ %>
+        <%- include('services.ejs') %>
+    <% } %>
+</main>
+
+<%- include('partials/footer.ejs') %>
